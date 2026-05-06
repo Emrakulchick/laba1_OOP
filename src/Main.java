@@ -1,4 +1,3 @@
-//package com.laba1_OOP_JAVA;
 public class Main {
 
     public static void main(String[] args) {
@@ -9,10 +8,10 @@ public class Main {
             short[][] matrix_c = operation.xor(matrix_a, matrix_b);
             int summa_min_c = operation.sum(matrix_c);
         System.out.print("Результат матриці А ⊕ матриці В:");
-        for(int i = 0; i < matrix_c.length; i++){
+        for (short[] shorts : matrix_c) {
             System.out.println();
-            for(int j = 0; j < matrix_c[i].length; j++){
-                System.out.print(" " + matrix_c[i][j]);
+            for (short aShort : shorts) {
+                System.out.print(" " + aShort);
             }
         }
 

@@ -14,7 +14,7 @@ public class Matrix_operations {
         int sum_element = 0;
         for (short[] shorts : matrix) {
             int min = shorts[0];
-            for (int j = 1; j < matrix[0].length; j++) { // зап за matrix[0].length або matrix_a[i].length
+            for (int j = 1; j < matrix[0].length; j++) {
                 if (shorts[j] < min) {
                     min = shorts[j];
                 }
